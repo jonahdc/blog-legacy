@@ -2,3 +2,4 @@
   from = "/blog/*"
   to = "https://jnh.netlify.com/:splat"
   status = 200
+  force = true
