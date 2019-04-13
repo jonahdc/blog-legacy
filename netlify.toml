@@ -1,5 +1,5 @@
-[[redirects]]
-from = "https://blog.jnh.sh/*"
-to = "https://www.jnh.sh/:splat"
-status = 301
-force = true
+[build]
+command = "yarn build --prefix-paths"
+
+[context.deploy-preview]
+command = "yarn build"
