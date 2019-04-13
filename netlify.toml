@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/blog/*"
-  to = "https://jnh.netlify.com/:splat"
-  status = 200
-  force = true
+from = "https://blog.jnh.sh/*"
+to = "https://www.jnh.sh/:splat"
+status = 301
+force = true
