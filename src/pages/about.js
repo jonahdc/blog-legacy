@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Header from '../components/header'
 
 export default () => (
   <React.Fragment>
     <Header />
-    <div>Yes this is a Hello world! commit. Thank you.</div>
+    <Link to={'/'}>Home</Link>
+    <div>About</div>
   </React.Fragment>
 )
