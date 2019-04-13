@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/blog/*"
-  to = "/:splat"
+  to = "https://jnh.netlify.com/:splat"
   status = 200
