@@ -3,3 +3,7 @@ command = "yarn build --prefix-paths"
 
 [context.deploy-preview]
 command = "yarn build"
+
+[[redirects]]
+  from = "/blog/*"
+  to = "/:splat"
