@@ -7,6 +7,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-transformer-sharp`,
     'gatsby-plugin-typescript',
     `gatsby-plugin-sharp`,
